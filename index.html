@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logging Framework</title>
+</head>
+
+<body>
+  <main class="main-container">
+    <h1>Gojo Satoru</h1>
+    <div class="character-container">
+      <img src="gojo-satoru.gif" alt="" id="character-img">
+      <div class="button-container">
+        <button class="action">I alone am the honored one</button>
+        <button class="action">Domain Expansion</button>
+        <button class="action">Topless Gojo (HOT)</button>
+      </div>
+      <div class="log-container">
+        <h3>Singleton Logger:</h3>
+        <div id="message-container"></div>
+        <button id="display">Display Logs</button>
+      </div>
+    </div>
+    <div class="log-container">
+      <h3>Factory Logger:</h3>
+      <input type="text" id="input-log">
+      <button id="submit-factory">Submit</button>
+      <div id="weblogs"></div>
+    </div>
+
+    <div class="log-container">
+      <h3>Prototype Logger:</h3>
+      <input type="number" id="code">
+      <input type="text" id="type">
+      <button id="clone">Clone Log</button>
+      <div id="clonelogs"></div>
+    </div>
+
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

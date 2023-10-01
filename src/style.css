@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.character-container {
+  display: flex;
+}
+
+img {
+  height: 28.125rem;
+  width: 28.125rem;
+  border-radius: 24px;
+}
+
+.log-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 24px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+}
+
+button {
+  padding: 8px;
+  margin: 8px 24px;
+  border: #242424;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.button-container button:hover {
+  border: 1px red solid;
+  border-radius: 8px;
+}
+
+input {
+  padding: 12px;
+}
+
